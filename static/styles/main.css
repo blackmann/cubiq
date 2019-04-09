@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url('../fonts/Trajan_Pro_Regular.ttf')
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+.footer .social li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+p, a {
+    font-family: 'PT Serif', serif;
+}
+
+.footer .social .fab {
+    color: white;
+    font-size: 24pt;
+}
+
+.footer .social .fab:hover {
+    opacity: 0.8;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.navbar {
+    background: transparent;
+}
+
+#home-nav a {
+    color: white;
+}
+
+/** overriding */
+.navbar-item img {
+    max-height: 70px;
+}
+
+.hero {
+    background-image: url("../images/Capture.PNG");
+    background-size: cover;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.title {
+    font-family: 'Trajan Pro', serif;
+}

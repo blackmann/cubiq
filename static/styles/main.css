@@ -1,7 +1,8 @@
 
 @font-face {
     font-family: 'Trajan Pro';
-    src: url('../fonts/Trajan_Pro_Regular.ttf')
+    src: url('../fonts/Trajan_Pro_Regular.ttf');
+    font-weight: 300;
 }
 
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
@@ -11,7 +12,7 @@
     margin-right: 24px;
 }
 
-p, a {
+p {
     font-family: 'PT Serif', serif;
 }
 
@@ -28,16 +29,17 @@ a {
     color: black;
 }
 
-a:hover {
-    opacity: 0.8;
-}
-
 .navbar {
     background: transparent;
+    padding-top: 40px;
 }
 
-#home-nav a {
+#home-nav .nav-link {
     color: white;
+}
+
+#home-nav .nav-link:hover {
+    opacity: 0.8;
 }
 
 /** overriding */
@@ -54,6 +56,43 @@ a:hover {
     text-decoration: underline;
 }
 
-.title {
+.title, a {
     font-family: 'Trajan Pro', serif;
+}
+
+.mt {
+    margin-top: 4em;
+}
+
+body {
+    padding: 0 10%;
+    background-color: black;
+}
+
+.section {
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 0;
+    }
+
+    .hero .title {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (min-width: 1088px) {
+    .container {
+        max-width:900px;
+        width: 900px
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width:1090px;
+        width: 1090px
+    }
 }

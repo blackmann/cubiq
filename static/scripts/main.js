@@ -9,3 +9,5 @@ $(document).ready(() => {
       }
     })
 })
+
+AOS.init();

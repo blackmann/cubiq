@@ -73,6 +73,10 @@ body {
     background-color: white;
 }
 
+.navbar>.container {
+    width: 80%;
+}
+
 @media screen and (max-width: 768px) {
     body {
         padding: 0 0;
@@ -81,18 +85,26 @@ body {
     .hero .title {
         margin-top: 120px;
     }
+
+    .navbar>.container {
+        width: 95%;
+    }
 }
 
 @media screen and (min-width: 1088px) {
     .container {
         max-width:900px;
-        width: 900px
+        width: 840px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width:1090px;
-        width: 1090px
-    }
+    
+}
+
+@media screen and (min-width: 1472px) {
+.container {
+    max-width: 1344px;
+    width: 1344px;
+}
 }

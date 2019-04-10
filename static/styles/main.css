@@ -65,8 +65,8 @@ a {
 }
 
 body {
-    padding: 0 10%;
-    background-color: black;
+    padding: 0 5%;
+    background-color: #0a0a0a;
 }
 
 .section {
@@ -74,7 +74,16 @@ body {
 }
 
 .navbar>.container {
-    width: 80%;
+    width: 75%;
+}
+
+hr {
+    background-color: #0a0a0a;
+    height: 1px;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #f6f6f7;
 }
 
 @media screen and (max-width: 768px) {
@@ -93,18 +102,28 @@ body {
 
 @media screen and (min-width: 1088px) {
     .container {
-        max-width:900px;
-        width: 840px;
+        max-width:960px;
+        width: 900px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    
+    .container {
+        max-width: 10240px;
+        width: 1024px;
+    }
 }
 
 @media screen and (min-width: 1472px) {
-.container {
-    max-width: 1344px;
-    width: 1344px;
+    .container {
+        max-width: 1344px;
+        width: 1344px;
+    }
 }
+
+@media screen and (min-width: 1472px) {
+    .container {
+        max-width: 1280px;
+        width: 1280px;
+    }    
 }

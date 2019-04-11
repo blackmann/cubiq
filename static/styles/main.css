@@ -96,6 +96,10 @@ hr {
     border-color: #f6f6f7;
 }
 
+.side-icon {
+    max-height: 150px;
+}
+
 @media screen and (max-width: 768px) {
     body {
         padding: 0 0;

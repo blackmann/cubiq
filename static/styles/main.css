@@ -128,6 +128,18 @@ hr {
     font-size: 18pt;
 }
 
+#home-nav .navbar-burger {
+    color: #f6f6f7;
+}
+
+#home-nav .is-active#navbarMenu  {
+    background-color: #0a0a0a;
+}
+
+.is-active#navbarMenu .navbar-dropdown .navbar-item {
+    color: #b3b3b3;
+}
+
 @media screen and (max-width: 768px) {
     body {
         padding: 0 0;

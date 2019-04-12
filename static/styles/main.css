@@ -97,6 +97,10 @@ hr {
 }
 
 .navbar-link:not(.is-arrowless)::after {
+    border-color: #0a0a0a;
+}
+
+#home-nav .navbar-link:not(.is-arrowless)::after {
     border-color: #f6f6f7;
 }
 
